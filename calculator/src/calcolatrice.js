@@ -101,24 +101,12 @@ class Calcolatrice extends React.Component {
         this.totalInt = 0;
         for (let i = 0; i < this.state.count.length; i++) {
             this.totale = this.totale + this.state.count[i];
-            if (this.state.count[i] !== '+' && this.state.count[i] !== '-') {
-                this.flag = false;
-                
-            } else {
-                console.log('è un operatore');
-                this.operator = this.state.count[i];
-                this.flag = true;
-            }
         }
-        this.tot = '0';
-        this.tot = this.totale;
-        for (let e = 0; e < this.tot.length; e++) {
-            console.log('Nel for --> ' + this.tot[e]);
-            if (this.operator === '+') {
-                this.totalInt = eval(this.tot);
-            }
+        for (let e = 0; e < this.totale.length; e++) {
+            console.log('Nel for --> ' + this.totale[e]);
+                this.totalInt = eval(this.totale);
         }
-        console.log('Operazione ---> ' + this.tot);
+        console.log('Operazione ---> ' + this.totale);
         console.log("risultato --->" + this.totalInt)
         this.risultato();
     }
