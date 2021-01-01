@@ -91,8 +91,29 @@ class Calcolatrice extends React.Component {
 
 
     saveData = (value) => {
-        this.setState({ visuale: this.state.visuale + value })
-        this.state.count.push(value);
+        switch(value){
+            case '/':
+                value = '÷';
+                break;
+            case '*':
+                value = 'x';
+                break;    
+        }
+
+        if(value !== '÷' && value !== 'x'){
+            this.setState({ visuale: this.state.visuale + value })
+            this.state.count.push(value);
+        }else{
+            if(value === '÷'){
+                this.setState({ visuale: this.state.visuale + value })
+                value = '/'
+                this.state.count.push(value);
+            }else{
+                this.setState({ visuale: this.state.visuale + value })
+                value = '*'
+                this.state.count.push(value);
+            }
+        }
     }
 
     calcolo = () => {
