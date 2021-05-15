@@ -1,10 +1,10 @@
 # React-calculator
 
-![Project img](https://github.com/Valerio-boi/React-TimeZone/blob/main/img.png)
+![Project img](https://github.com/Valerio-boi/React-TimeZone/blob/main/CalcolatriceImg.png)
 
 <h1>What's this</h1>
 
-> React time zone is a simple project, showing the time difference of 6 countries.
+> React calculator, is a simple calculator that tries to emulate that of Windows..
 
 <h1>
 How to start it and view the code
