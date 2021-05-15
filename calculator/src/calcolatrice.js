@@ -129,7 +129,7 @@ class Calcolatrice extends React.Component {
         }
         console.log('Operazione ---> ' + this.totale);
         console.log("risultato --->" + this.totalInt)
-        this.risultato();
+        this.risultato();        
     }
 
     clearCalcolatrice = () => {
@@ -140,9 +140,6 @@ class Calcolatrice extends React.Component {
         this.setState({ visuale: this.totalInt })
         console.log(this.state.count)
     }
-
-
-
 }
 
 export default Calcolatrice;
