@@ -1,6 +1,6 @@
 # React-calculator
 
-![Project img](https://github.com/Valerio-boi/React-TimeZone/blob/main/CalcolatriceImg.png)
+![Project img](https://github.com/Valerio-boi/React-TimeZone/blob/main/CalculatriceImg.png)
 
 <h1>What's this</h1>
 
@@ -12,7 +12,7 @@ How to start it and view the code
 
 > to be able to view the code you just need to clone the project in this way:
 
-- via bash type git clone https://github.com/Valerio-boi/React-TimeZone.git
+- via bash type git clone https://github.com/Valerio-boi/React-calculator.git
 
 - using the cd command move to the folder where the .git is and type code.
 Visual studio Code will open there.
