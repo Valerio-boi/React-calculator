@@ -1,6 +1,6 @@
 # React-calculator
 
-![Project img](https://github.com/Valerio-boi/React-TimeZone/blob/main/CalculatriceImg.png)
+![Project img](https://github.com/Valerio-boi/React-calculator/blob/main/CalculatoreImg.png)
 
 <h1>What's this</h1>
 
